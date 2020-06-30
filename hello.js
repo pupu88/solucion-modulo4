@@ -1,4 +1,4 @@
-(function (hello) {
+function (hello) {
     var usuarioSaludador = {};
     var names = ["Pepe","Carlos","Maria","Diana"];
     console.log(names);
@@ -10,4 +10,4 @@
     }
 
     hello.usuarioSaludador = usuarioSaludador;
-})(hello);
+}
