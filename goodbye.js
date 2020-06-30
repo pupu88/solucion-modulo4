@@ -1,4 +1,4 @@
-(function (goodbye) {
+function (goodbye) {
     var usuarioDespedidor = {};
     var names = ["Julio","Juan","Jose","Julieta"];
     console.log(names);
@@ -10,4 +10,4 @@
     }
 
     goodbye.usuarioDespedidor = usuarioDespedidor;
-})(goodbye);
+}(goodbye);
