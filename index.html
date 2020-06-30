@@ -1,14 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SOLUTION MODULE4</title>
+
+  <meta charset="utf-10">
+
+  <title>Modulo 4 Solucion Arrancador</title>
+
+  <script>
+
+    var names = [];
+    (function (window){
+	var chauHablador={};
+	var hablarpalabra= "Hello";
+	chauHablador.hablar=function (name) {
+
+  console.log(hablarpalabra + " " + name);
+
+}
+window.chauHablador=chauHablador;
+})(window);
+(function (window){
+	var names = ['Yaakov', 'John', 'Jen', 'Jason', 'Paul', 'Frank', 'Larry', 'Paula', 'Laura', 'Jim'];
+	var holahablador={};
+	var speakword='Good Bye';
+	holahablador.hablar=function(name) {
+
+  console.log(hablarpalabra +" "+ name);
+
+}
+window.holahablador=holahablador;
+})(window);
+var list1=[];
+var list2=[];
+var names = ['Yaakov', 'John', 'Jen', 'Jason', 'Paul', 'Frank', 'Larry', 'Paula', 'Laura', 'Jim'];
+  for (var i=0;i<names.length;i++){
+   list1[i]=names[i].charAt(0);
+   list2[i]=list1[i].toLowerCase();
+  if(list2[i]=="j")
+  {
+  	holahablador.hablar(names[i]);
+  }
+  else{
+  chauHablador.hablar(names[i]);
+  }
+  }
+
+    
+  </script>
+
+ 
+
 </head>
+
 <body>
-    
-    
-    <script src="hello.js"></script>
-    <script src="goodbye.js"></script>
+  <h1>Modulo 4 Solucion Arrancador</h1>
 </body>
+
 </html>
